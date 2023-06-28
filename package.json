@@ -4,7 +4,7 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "prepack": "tsc",
+    "prepare": "tsc",
     "dev": "ts-node --esm src/index.ts"
   },
   "main": "dist/index.js",
