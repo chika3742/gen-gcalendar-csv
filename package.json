@@ -1,6 +1,6 @@
 {
-  "name": "@chika3742/gen-gcalendar-csv",
-  "version": "1.0.3",
+  "name": "gen-gcalendar-csv",
+  "version": "1.0.4",
   "type": "module",
   "scripts": {
     "prepare": "tsc",
@@ -14,9 +14,9 @@
   "bin": {
     "gen-gcalendar-csv": "bin/gen-gcalendar-csv.js"
   },
-  "publishConfig": {
-    "access": "public",
-    "registry": "https://npm.pkg.github.com"
+  "author": {
+    "name": "chika3742",
+    "url": "https://www.chikach.net"
   },
   "repository": "https://github.com/chika3742/gen-gcalendar-csv.git",
   "dependencies": {
