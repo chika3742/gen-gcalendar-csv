@@ -13,7 +13,7 @@
     "bin"
   ],
   "bin": {
-    "gen-gcalendar-csv": "bin/gen-gcalendar-csv"
+    "gen-gcalendar-csv": "bin/gen-gcalendar-csv.js"
   },
   "dependencies": {
     "@types/node": "^20.2.5",
