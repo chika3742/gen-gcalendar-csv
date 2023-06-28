@@ -3,7 +3,7 @@ import * as fs from "fs";
 import {parseArgs} from "util"
 
 export const main = () => {
-  const options = parseArgs({
+  const {values: options, positionals: args} = parseArgs({
     strict: true,
     options: {
       help: {
@@ -11,14 +11,13 @@ export const main = () => {
         short: "h",
         default: false,
       }
-    }
+    },
+    allowPositionals: true,
   })
 
-  const args = process.argv.slice(2)
-
-  if (process.argv.length < 6 || options.values.help) {
+  if (process.argv.length < 6 || options.help) {
     console.log("Usage: gen-gcalendar-csv <subject> <yyyy/MM> <start time (HH:mm)> <end time (HH:mm)> <days (dd,dd,...)> <output file>")
-    if (options.values.help) {
+    if (options.help) {
       process.exit(0)
     } else {
       process.exit(1)
