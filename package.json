@@ -1,0 +1,25 @@
+{
+  "name": "gen-gcalendar-csv",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "prepack": "tsc",
+    "dev": "ts-node --esm src/index.ts"
+  },
+  "main": "dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "bin": {
+    "gen-gcalendar-csv": "dist/index.js"
+  },
+  "dependencies": {
+    "@types/node": "^20.2.5",
+    "csv-stringify": "^6.4.0",
+    "rollup": "^3.25.3",
+    "ts-node": "^10.9.1",
+    "tslib": "^2.5.2",
+    "typescript": "^5.0.4"
+  }
+}
