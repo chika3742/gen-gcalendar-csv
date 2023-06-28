@@ -1,7 +1,8 @@
 {
   "name": "gen-gcalendar-csv",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "type": "module",
+  "license": "MIT",
   "scripts": {
     "prepare": "tsc",
     "dev": "ts-node --esm src/index.ts"
