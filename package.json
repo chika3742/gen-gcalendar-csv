@@ -12,7 +12,7 @@
     "dist"
   ],
   "bin": {
-    "gen-gcalendar-csv": "dist/index.js"
+    "gen-gcalendar-csv": "bin/gen-gcalendar-csv"
   },
   "dependencies": {
     "@types/node": "^20.2.5",
