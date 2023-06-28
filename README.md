@@ -6,7 +6,8 @@ You can specify the start date, end date, and the days of the week that you want
 ## Installation
 
 ```bash
-npm -g install https://github.com/chika3742/gen-gcalendar-csv.git
+npm config set @chika3742:registry https://npm.pkg.github.com
+npm -g install @chika3742/gen-gcalendar-csv
 ```
 
 ## Usage
