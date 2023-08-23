@@ -1,7 +1,7 @@
 # Google Calendar CSV Generator
 
 This is a simple script that generates a CSV file that can be imported into Google Calendar.
-You can specify the start date, end date, and the days of the week that you want to generate events for.
+You can specify the month, start time, end time, and dates that you want to generate events for.
 
 ## Installation
 
@@ -11,8 +11,8 @@ npm -g install gen-gcalendar-csv
 
 ## Usage
 
-```bash
-gen-gcalendar-csv <subject> <yyyy/MM> <start time (HH:mm)> <end time (HH:mm)> <days (dd,dd,...)> <output file>
+```
+gen-gcalendar-csv <subject> <yyyy/MM> <start time (HH:mm)> <end time (HH:mm)> <dates (dd,dd,...)> <output file>
 ```
 
 ## Example
