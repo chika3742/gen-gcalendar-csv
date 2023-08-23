@@ -15,6 +15,10 @@
   "bin": {
     "gen-gcalendar-csv": "bin/gen-gcalendar-csv.js"
   },
+  "keywords": [
+    "calendar",
+    "csv"
+  ],
   "author": {
     "name": "chika3742",
     "url": "https://www.chikach.net"
