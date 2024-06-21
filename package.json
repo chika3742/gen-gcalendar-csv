@@ -4,7 +4,7 @@
   "type": "module",
   "license": "MIT",
   "scripts": {
-    "prepare": "tsc",
+    "prepack": "tsc",
     "dev": "ts-node --esm src/index.ts"
   },
   "main": "dist/index.js",
